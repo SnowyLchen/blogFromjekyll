@@ -26,9 +26,9 @@ keywords:ruby,jekyll,博客
 
 ​	各种错误
 
-<	https://www.jianshu.com/p/58e2c5ea3103>
+	<https://www.jianshu.com/p/58e2c5ea3103>
 
-<	https://www.bbsmax.com/A/1O5EpbXyJ7/>
+	<https://www.bbsmax.com/A/1O5EpbXyJ7/>
 
 ​	启动Jekyll服务 bundle exec jekyll serve
 
