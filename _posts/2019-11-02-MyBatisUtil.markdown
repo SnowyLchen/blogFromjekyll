@@ -6,7 +6,7 @@ date: 2019-11-02
 
 #### MybatisUtil
 
-```bash
+```java
 package com.util;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -43,6 +43,8 @@ static {
 
 }
 ```
+
+
 
 #### mybatis.cgf.xml
 
