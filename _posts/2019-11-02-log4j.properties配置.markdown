@@ -1,0 +1,33 @@
+---
+layout: post
+title: log4j日志配置
+date: 2019-11-02
+---
+
+### log4j日志
+
+在pom.xml中引入依赖（Apache log4j,Apache log4j.core）
+
+在resources中创建一个log4j.properties文件
+
+```java
+# Global logging configuration
+log4j.rootLogger=ERROR, stdout
+# MyBatis logging configuration...
+log4j.logger.com.mapper=DEBUG//写mapper的路径
+# Console output...
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=%5p [%t] - %m%n
+
+```
+
+在mybatis核心文件中写：
+
+```java
+   <settings>
+       <!--日志-->
+       <setting name="logImpl" value="LOG4J"/>
+   </settings>
+```
+

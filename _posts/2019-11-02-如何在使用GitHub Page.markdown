@@ -6,16 +6,13 @@ date: 2019-11-02
 
 ### 使用GitHub Page搭建博客
 
-- 参考https://www.cnblogs.com/sqchen/p/10757927.html
+- 参考:<https://www.cnblogs.com/sqchen/p/10757927.html>
 
 ### ruby:
 
-- 更新ruby版本 
+- 更新ruby版本`gem update --system`
 
-  `gem update --system`
-
-- 安装jekyll 
-  `gem install jekyll`
+- 安装jekyll `gem install jekyll`
 
 - 清华大学源：
   <https://mirror.tuna.tsinghua.edu.cn/help/msys2/>
