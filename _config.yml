@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 # Basic
 title: 陈锦龙
-subtitle: 人总是四处逃匿，去无法回避自己
-welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">下载主题</a>
-description:Java Note
+subtitle: 人总是
+welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+description: Vno Jekyll is a port of my Ghost theme vno.
 creator: <a href="http://onev.cat">@onevcat</a>
 
 url: "http://vno.onevcat.com"
@@ -39,7 +38,7 @@ comment:
 # Social
 social:
     weibo: onevcat
-    github: SnowyLChen
+    github: onevcat
     twitter: onevcat
     gplus: 107108267983477358170
     mail: onev@onevcat.com
@@ -48,8 +47,3 @@ social:
 ga:
     # id: your_ga_id
     # host: your_host
----
-- E:\ruby-2.7.0-preview2\Ruby23-x64
-=======
-theme: jekyll-theme-merlot
->>>>>>> e9865d465ad6625825146ff2c9a141c844bb8be4
