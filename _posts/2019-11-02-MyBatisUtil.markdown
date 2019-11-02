@@ -1,10 +1,10 @@
 ---
 layout: post
-title: »ñÈ¡SQLSession¹¤¾ßÀà
+title: è·å–SQLSessionå·¥å…·ç±»
 date: 2019-11-02
 ---
 
-#### MybatisUtil
+### MybatisUtil
 
 ```java
 package com.util;
@@ -21,9 +21,9 @@ static {
     String resources="mybatis.cgf.xml";
     InputStream in =null;
     try {
-        //¶ÁÈ¡resource.xmlÎÄ¼ş
+        //è¯»å–resource.xmlæ–‡ä»¶
         in= Resources.getResourceAsStream(resources);
-        //ÄäÃû¶ÔÏóÊ¹ÓÃ¹¹Ôì
+        //åŒ¿åå¯¹è±¡ä½¿ç”¨æ„é€ 
         sqlSessionFactory=new SqlSessionFactoryBuilder().build(in);
     }catch (IOException e) {
         e.printStackTrace();
@@ -44,11 +44,9 @@ static {
 }
 ```
 
+### mybatis.cgf.xml
 
-
-#### mybatis.cgf.xml
-
-```bash
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
