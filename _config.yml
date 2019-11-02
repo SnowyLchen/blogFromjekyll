@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Basic
 title: Vno Jekyll
 subtitle: A blog-orientation theme for Jekyll
@@ -49,3 +50,6 @@ ga:
     # host: your_host
 ---
 - E:\ruby-2.7.0-preview2\Ruby23-x64
+=======
+theme: jekyll-theme-merlot
+>>>>>>> e9865d465ad6625825146ff2c9a141c844bb8be4
